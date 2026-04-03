@@ -60,17 +60,23 @@ def get_recipe(folder):
 def get_variables():
     environment_file = "environment_variables.json"
     current_directory = os.getcwd()
-    
-    environment_path = os.path.join(current_directory, "python", environment_file)
-    with open(environment_path, 'r') as f:
-        data = json.load(f)
 
-        global search_path
-        search_path = data['search_path']
-        global directory_path
-        directory_path = data['url']
-        global custom_header_html
-        custom_header_html = data['header']
+    environment_path = os.path.join(current_directory, "python", environment_file)
+
+    global search_path
+    global directory_path
+    global custom_header_html
+
+    if os.path.exists(environment_path):
+        with open(environment_path, 'r') as f:
+            data = json.load(f)
+            search_path = data['search_path']
+            directory_path = data['url']
+            custom_header_html = data['header']
+    else:
+        search_path = os.environ.get('SEARCH_PATH', os.path.join(current_directory, 'recipes'))
+        directory_path = os.environ.get('SITE_URL', '')
+        custom_header_html = os.environ.get('SITE_HEADER', '')
 
 def print_variables():
     print(search_path)
