@@ -4,7 +4,7 @@ def format_link(link):
     if remove_html_extension:
         root_index_link = f"{directory_path}/index.html"
         if link == root_index_link:
-            return directory_path
+            return directory_path if directory_path else "/"
 
         if link.endswith('/index.html'):
              if link.split('/')[-1] == 'index.html':
