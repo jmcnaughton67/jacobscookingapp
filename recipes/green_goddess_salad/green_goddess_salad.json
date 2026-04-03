@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "green_goddess_salad",
+  "name": "Green Goddess Salad",
+  "image": [
+    "green_goddess_salad_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Coming soon.",
+  "keywords": "Green Goddess Salad",
+  "prepTime": "PT0M",
+  "cookTime": "PT0M",
+  "totalTime": "PT0M",
+  "recipeYield": "Serves 4",
+  "recipeCategory": [
+    "Salad",
+    "Side Dish"
+  ],
+  "recipeCuisine": [
+    "American"
+  ],
+  "diet": [],
+  "recipeIngredient": [
+    "Coming soon"
+  ],
+  "ingredientKeywords": [
+    "Herb"
+  ],
+  "equipment": [],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Coming Soon",
+      "url": 1,
+      "text": "Recipe coming soon."
+    }
+  ],
+  "notes": [],
+  "relatedRecipes": []
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "paella",
+  "name": "Paella",
+  "image": [
+    "paella_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Coming soon.",
+  "keywords": "Paella",
+  "prepTime": "PT0M",
+  "cookTime": "PT0M",
+  "totalTime": "PT0M",
+  "recipeYield": "Serves 4",
+  "recipeCategory": [
+    "Main Course"
+  ],
+  "recipeCuisine": [
+    "Spanish"
+  ],
+  "diet": [],
+  "recipeIngredient": [
+    "Coming soon"
+  ],
+  "ingredientKeywords": [
+    "Rice"
+  ],
+  "equipment": [],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Coming Soon",
+      "url": 1,
+      "text": "Recipe coming soon."
+    }
+  ],
+  "notes": [],
+  "relatedRecipes": []
+}

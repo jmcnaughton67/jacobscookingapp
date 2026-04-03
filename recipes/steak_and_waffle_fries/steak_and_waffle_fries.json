@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "steak_and_waffle_fries",
+  "name": "Steak and Waffle Fries",
+  "image": [
+    "steak_and_waffle_fries_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Coming soon.",
+  "keywords": "Steak and Waffle Fries",
+  "prepTime": "PT0M",
+  "cookTime": "PT0M",
+  "totalTime": "PT0M",
+  "recipeYield": "Serves 4",
+  "recipeCategory": [
+    "Main Course"
+  ],
+  "recipeCuisine": [
+    "American"
+  ],
+  "diet": [],
+  "recipeIngredient": [
+    "Coming soon"
+  ],
+  "ingredientKeywords": [
+    "Beef"
+  ],
+  "equipment": [],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Coming Soon",
+      "url": 1,
+      "text": "Recipe coming soon."
+    }
+  ],
+  "notes": [],
+  "relatedRecipes": []
+}

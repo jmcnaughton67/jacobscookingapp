@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "pastel_de_nata",
+  "name": "Pastel De Nata",
+  "image": [
+    "pastel_de_nata_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Coming soon.",
+  "keywords": "Pastel De Nata",
+  "prepTime": "PT0M",
+  "cookTime": "PT0M",
+  "totalTime": "PT0M",
+  "recipeYield": "Serves 4",
+  "recipeCategory": [
+    "Dessert",
+    "Baking"
+  ],
+  "recipeCuisine": [
+    "Portuguese"
+  ],
+  "diet": [],
+  "recipeIngredient": [
+    "Coming soon"
+  ],
+  "ingredientKeywords": [
+    "Egg"
+  ],
+  "equipment": [],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Coming Soon",
+      "url": 1,
+      "text": "Recipe coming soon."
+    }
+  ],
+  "notes": [],
+  "relatedRecipes": []
+}

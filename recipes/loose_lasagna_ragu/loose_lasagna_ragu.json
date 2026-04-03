@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "loose_lasagna_ragu",
+  "name": "Loose Lasagna Ragu",
+  "image": [
+    "loose_lasagna_ragu_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Coming soon.",
+  "keywords": "Loose Lasagna Ragu",
+  "prepTime": "PT0M",
+  "cookTime": "PT0M",
+  "totalTime": "PT0M",
+  "recipeYield": "Serves 4",
+  "recipeCategory": [
+    "Main Course",
+    "Pasta"
+  ],
+  "recipeCuisine": [
+    "Italian",
+    "Italian-American"
+  ],
+  "diet": [],
+  "recipeIngredient": [
+    "Coming soon"
+  ],
+  "ingredientKeywords": [
+    "Beef"
+  ],
+  "equipment": [],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Coming Soon",
+      "url": 1,
+      "text": "Recipe coming soon."
+    }
+  ],
+  "notes": [],
+  "relatedRecipes": []
+}
