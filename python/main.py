@@ -604,7 +604,7 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         f.write(f"{get_header()}")
 
         # Add recipe pages
-        f.write(f"<h1 class=\"offset\" style=\"margin-bottom:0rem;\">Latest Recipes</h1>")
+        f.write(f"<h1 class=\"offset\" style=\"margin-bottom:0rem;\">Cooking with Spud</h1>")
         f.write(f"<div class=\"recipeContainer\">")
         recipe_count = 0
         for recipe in map_chunk:
