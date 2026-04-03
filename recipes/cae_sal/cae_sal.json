@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "cae_sal",
+  "name": "Cae Sal",
+  "image": [
+    "cae_sal_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "The Greatest Salad of All Time. Crisp cold romaine hearts, a thick peppery garlicky dressing built on a hand-whisked mayo, loads of Parmesan, homemade croutons, and enough lemon to make it all pop.",
+  "keywords": "Caesar Salad, Cae Sal, Molly Baz, Caesar Dressing, Homemade Caesar, Anchovy Dressing, Romaine, Croutons, Parmesan",
+  "prepTime": "PT20M",
+  "cookTime": "PT15M",
+  "totalTime": "PT35M",
+  "recipeYield": "4 Servings",
+  "recipeCategory": ["Salad", "Side Dish"],
+  "recipeCuisine": ["American", "Italian-American"],
+  "diet": [],
+  "recipeIngredient": [
+    "Croutons:",
+    "½ crusty baguette (about 6 oz)",
+    "2 tbsp extra-virgin olive oil",
+    "½ tsp kosher salt",
+    "Coarsely ground black pepper",
+    "",
+    "Dressing:",
+    "2 large egg yolks",
+    "1 garlic clove, finely grated",
+    "1 lemon",
+    "4 oil-packed anchovy fillets",
+    "1 tsp Dijon mustard",
+    "½ cup canola or vegetable oil",
+    "¾ tsp kosher salt",
+    "¾ tsp coarsely ground black pepper",
+    "1 tsp Worcestershire sauce",
+    "1 oz grated Parmesan (about ¼ cup)",
+    "",
+    "Salad:",
+    "4 romaine hearts",
+    "1 oz grated Parmesan (about ¼ cup), plus more for serving"
+  ],
+  "ingredientKeywords": [
+    "Baguette",
+    "Egg",
+    "Garlic",
+    "Lemon",
+    "Anchovy",
+    "Dijon Mustard",
+    "Parmesan",
+    "Romaine",
+    "Canola Oil",
+    "Olive Oil",
+    "Worcestershire Sauce"
+  ],
+  "equipment": [
+    "Rimmed Baking Sheet",
+    "Bowl",
+    "Whisk",
+    "Chef's Knife"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Make the Croutons",
+      "url": 1,
+      "text": "Preheat the oven to 350°F. Tear half a baguette into irregular 1-inch pieces — about 3 cups of torn bread. Toss on a rimmed baking sheet with 2 tablespoons olive oil, ½ teaspoon kosher salt and plenty of black pepper until well coated. Bake until deeply golden brown and crisp, 12–14 minutes. Let cool."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Dressing",
+      "url": 2,
+      "text": "Separate the yolks of 2 eggs and place them in a large bowl, reserving the whites for another use. Finely grate in the garlic and the zest of about half a lemon. Squeeze in the juice of half the lemon. Finely chop the anchovies, then mash to a smooth paste using the side of a chef's knife. Add to the bowl along with the Dijon mustard and whisk everything to combine. Place a damp kitchen towel under the bowl to stabilise it. Starting with a very thin stream and whisking constantly, slowly pour in the ½ cup of canola oil until the dressing is thick, creamy and pale yellow. Whisk in the salt, pepper, Worcestershire sauce and ¼ cup grated Parmesan. Taste on a romaine leaf — it should be salty, cheesy and lemony."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prep the Lettuce",
+      "url": 3,
+      "text": "Tear the romaine hearts into 2-inch pieces and add to the bowl of dressing. Squeeze the juice of the remaining half lemon over the romaine, season with salt and toss the leaves to coat, avoiding mixing in the dressing underneath just yet."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Serve",
+      "url": 4,
+      "text": "Add the croutons and toss everything gently with your hands until well coated. Add the remaining ¼ cup grated Parmesan and toss again. Divide among plates and top with more Parmesan and plenty of black pepper."
+    }
+  ],
+  "notes": [
+    "You are making mayonnaise by hand — the mustard, garlic and anchovies help stabilise the emulsion so it's more forgiving than a plain mayo.",
+    "Start with a very thin stream of oil at the beginning. Once the dressing starts to thicken and lighten in colour you can pour more freely.",
+    "Pre-seasoning the romaine with lemon juice and salt before adding the dressing is key — lettuce contains water that dilutes flavour, so the extra acid keeps it zingy.",
+    "Taste the dressing on an actual romaine leaf before dressing the whole salad — it's your best guide for adjustments.",
+    "The reserved egg whites are great saved for the Coconut Crunch Chicken Salad."
+  ],
+  "relatedRecipes": ["coconut_crunch_chicken_salad"]
+}

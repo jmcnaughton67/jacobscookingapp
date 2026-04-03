@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "minty_lamb_meatballs",
+  "name": "Minty Lamb Meatballs with Tahini",
+  "image": [
+    "minty_lamb_meatballs_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Juicy lamb meatballs packed with fresh mint and cumin, roasted alongside charred cabbage and served over a garlicky lemon tahini sauce.",
+  "keywords": "Lamb Meatballs, Tahini, Minty Lamb, Charred Cabbage, Middle Eastern, Lamb, Mint, Cumin",
+  "prepTime": "PT20M",
+  "cookTime": "PT30M",
+  "totalTime": "PT50M",
+  "recipeYield": "4 Servings",
+  "recipeCategory": ["Main Course"],
+  "recipeCuisine": ["Middle Eastern"],
+  "diet": [],
+  "recipeIngredient": [
+    "Meatballs & Cabbage:",
+    "1 medium green or red cabbage (about 2 lbs)",
+    "3 garlic cloves",
+    "1 cup mint leaves",
+    "1 lemon",
+    "1 egg",
+    "1 lb ground lamb",
+    "5 tbsp olive oil",
+    "⅔ cup panko bread crumbs",
+    "2 tbsp tahini",
+    "1½ tsp ground cumin",
+    "Kosher salt and ground black pepper",
+    "",
+    "Tahini Sauce:",
+    "½ cup tahini",
+    "⅓ cup water",
+    "Juice of 1 lemon",
+    "1 garlic clove, finely grated",
+    "¾ tsp kosher salt"
+  ],
+  "ingredientKeywords": [
+    "Lamb",
+    "Cabbage",
+    "Tahini",
+    "Mint",
+    "Garlic",
+    "Lemon",
+    "Egg",
+    "Panko",
+    "Olive Oil",
+    "Cumin"
+  ],
+  "equipment": [
+    "Rimmed Baking Sheet",
+    "Bowl",
+    "Whisk",
+    "Grater"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Preheat",
+      "url": 1,
+      "text": "Position one rack in the upper third of the oven and a second in the middle. Preheat to 450°F."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prep the Cabbage",
+      "url": 2,
+      "text": "Quarter the cabbage through the root end. Trim out the core of each quarter, then cut each quarter in half crosswise to create 8 pieces. Separate all the leaves and scatter across 2 rimmed baking sheets — it's fine if they overlap."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Season and Roast the Cabbage",
+      "url": 3,
+      "text": "Drizzle each baking sheet with 2 tablespoons olive oil and season with ¾ tsp salt and plenty of black pepper. Massage the oil into the cabbage with your hands so it's evenly distributed. Roast until charred in places and slightly reduced in volume, 13–15 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate and Increase Heat",
+      "url": 4,
+      "text": "Remove from the oven and combine all cabbage onto one baking sheet, reserving the second sheet for the meatballs. Increase oven temperature to 500°F."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Meatball Mixture",
+      "url": 5,
+      "text": "In a large bowl, lightly beat the egg. Add the panko, 2 tablespoons tahini, cumin, 1¼ tsp salt and 1 tablespoon olive oil. Whisk to combine. Finely grate 2 garlic cloves into the mixture. Chop ½ cup mint leaves and add to the bowl."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Form the Meatballs",
+      "url": 6,
+      "text": "Add about ⅓ lb of the ground lamb and use your hands to gently mix until evenly combined with no pockets of panko remaining — don't overwork or the meatballs will be tough. Gradually mix in the remaining ⅔ lb lamb. Roll into meatballs and place on the reserved baking sheet."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roast the Meatballs and Cabbage",
+      "url": 7,
+      "text": "Return both baking sheets to the oven, placing the meatballs on the top rack. Roast until the meatballs are browned and spring back when pressed, and the cabbage is mostly charred and crisp, 7–9 minutes. If the cabbage needs more time, pull out just the meatballs to avoid overcooking."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Tahini Sauce",
+      "url": 8,
+      "text": "While the meatballs roast, stir together ½ cup tahini, ⅓ cup water, the lemon juice, and ¾ tsp salt in a small bowl. Finely grate 1 garlic clove into the tahini and whisk to combine. It should be pourable — if too thick, whisk in a splash more water."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Serve",
+      "url": 9,
+      "text": "Spread tahini sauce across each plate. Top with the charred cabbage, meatballs and remaining ½ cup fresh mint leaves."
+    }
+  ],
+  "notes": [
+    "Don't overwork the meatball mixture — mix until just combined or they'll turn tough.",
+    "Add the lamb in two stages as described: starting with a smaller amount helps the panko mixture incorporate more evenly.",
+    "Watch the cabbage and meatballs separately at the end — the meatballs can overcook quickly at 500°F.",
+    "The tahini sauce thickens as it sits — add a splash of water and whisk again if needed before serving."
+  ],
+  "relatedRecipes": []
+}

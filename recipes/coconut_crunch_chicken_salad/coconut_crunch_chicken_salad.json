@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "coconut_crunch_chicken_salad",
+  "name": "Coconut Crunch Chicken Salad",
+  "image": [
+    "coconut_crunch_chicken_salad_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "Crunchy fresh veg mixed with a peanut coconut ginger dressing and coconut crunch — a nut, coconut, sesame seed and curry powder granola that you can snack on all day.",
+  "keywords": "Coconut Crunch Chicken Salad, Peanut Coconut Dressing, Coconut Crunch, Chicken Salad, Asian Salad, Molly Baz, Crunchy Salad",
+  "prepTime": "PT20M",
+  "cookTime": "PT25M",
+  "totalTime": "PT45M",
+  "recipeYield": "4 Servings",
+  "recipeCategory": ["Main Course", "Salad"],
+  "recipeCuisine": ["Asian-American", "American"],
+  "diet": [],
+  "recipeIngredient": [
+    "Coconut Crunch:",
+    "1 large egg white",
+    "3 tbsp brown sugar",
+    "3 tsp toasted sesame oil",
+    "1 tsp curry powder",
+    "¾ tsp kosher salt",
+    "½ tsp cayenne pepper",
+    "1½ cups mixed nuts (raw cashews, roasted peanuts and/or raw almonds)",
+    "1½ cups unsweetened coconut flakes",
+    "2 tbsp white and/or black sesame seeds",
+    "Zest of 1 lime",
+    "",
+    "Peanut-Coconut Dressing:",
+    "1 half-inch piece fresh ginger, finely grated",
+    "⅓ cup full-fat coconut milk",
+    "¼ cup creamy peanut butter",
+    "1 tbsp vegetable oil",
+    "Juice of 1 lime",
+    "1 tsp toasted sesame oil",
+    "1 tsp brown sugar",
+    "Salt to taste",
+    "",
+    "Salad:",
+    "1½ lbs mixed crunchy vegetables (snap peas, carrots, broccolini, radishes, cucumbers, daikon, kohlrabi and/or celery)",
+    "1 bunch cilantro",
+    "2 cups rotisserie chicken meat or other leftover cooked protein",
+    "Kosher salt and freshly ground pepper",
+    "Lime juice to taste"
+  ],
+  "ingredientKeywords": [
+    "Chicken",
+    "Coconut",
+    "Coconut Milk",
+    "Peanut Butter",
+    "Ginger",
+    "Lime",
+    "Sesame Oil",
+    "Cashew",
+    "Almond",
+    "Peanut",
+    "Cilantro",
+    "Sesame Seed",
+    "Curry Powder",
+    "Coconut Flake"
+  ],
+  "equipment": [
+    "Rimmed Baking Sheet",
+    "Bowl",
+    "Whisk"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Preheat",
+      "url": 1,
+      "text": "Preheat oven to 325°F. Line a rimmed baking sheet with parchment paper."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Whisk Egg White",
+      "url": 2,
+      "text": "Separate the egg and place the white in a large bowl. Reserve the yolk for another use (it's great for aioli). Vigorously whisk until fluffy, foamy soft peaks form."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Coconut Crunch Mixture",
+      "url": 3,
+      "text": "Add the brown sugar, toasted sesame oil, curry powder, salt and cayenne to the egg white. Whisk to incorporate. Add the nuts, coconut flakes, sesame seeds and lime zest. Fold with a rubber spatula until everything is evenly coated."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Bake the Coconut Crunch",
+      "url": 4,
+      "text": "Scrape the mixture onto the prepared baking sheet and spread into an even layer. Bake, stirring halfway through, until the coconut is lightly golden, 20–25 minutes. Let cool slightly, then break into large chunks with your hands."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Dressing",
+      "url": 5,
+      "text": "Finely grate the ginger into a large bowl. Add the coconut milk, peanut butter, vegetable oil, lime juice, toasted sesame oil and brown sugar. Whisk until smooth. Season with salt to taste."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prep the Vegetables",
+      "url": 6,
+      "text": "Chop, slice, julienne, trim, shave and/or dice the vegetables into roughly bite-size pieces. Add to the bowl with the dressing."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Assemble the Salad",
+      "url": 7,
+      "text": "Coarsely chop the cilantro leaves and tender stems and add to the bowl. Add the chicken, season with salt and pepper, and add a few large handfuls of coconut crunch. Toss to combine. Add more lime juice to taste."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Serve",
+      "url": 8,
+      "text": "Divide the salad among plates and top with more coconut crunch."
+    }
+  ],
+  "notes": [
+    "The coconut crunch makes more than you need — store the rest in an airtight container and snack on it throughout the week.",
+    "Any mix of crunchy vegetables works — don't stress about which ones, just use what you have.",
+    "Rotisserie chicken makes this very quick to pull together on a weeknight.",
+    "The reserved egg yolk is perfect for making aioli — great paired with the Piri Chicken with Aioli recipe."
+  ],
+  "relatedRecipes": []
+}

@@ -1,0 +1,129 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "chili_roasted_chicken",
+  "name": "Piri Chicken with Aioli",
+  "image": [
+    "chili_roasted_chicken_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "A spiced roasted chicken coated in a bold chili paste of garlic, fresno chilies, smoked paprika and tomato paste, roasted alongside baby potatoes and whole garlic heads. Served with a rich homemade garlic aioli.",
+  "keywords": "Piri Chicken, Roast Chicken, Chili Roasted Chicken, Smoked Paprika Chicken, Garlic Aioli, Piri Piri, Spiced Chicken",
+  "prepTime": "PT20M",
+  "cookTime": "PT2H10M",
+  "totalTime": "PT2H30M",
+  "recipeYield": "4-6 Servings",
+  "recipeCategory": ["Main Course"],
+  "recipeCuisine": ["Portuguese", "African"],
+  "diet": [],
+  "recipeIngredient": [
+    "Chicken:",
+    "3.5–4 lb whole chicken",
+    "4 tsp salt",
+    "",
+    "Chili Paste:",
+    "6 garlic cloves",
+    "2 red Fresno or serrano chilies",
+    "2 tbsp extra-virgin olive oil",
+    "2 tbsp double-concentrated tomato paste",
+    "1 tbsp smoked paprika",
+    "2 tbsp red wine vinegar or sherry vinegar",
+    "",
+    "Potatoes & Garlic:",
+    "2 lbs baby Yukon Gold potatoes",
+    "2 tbsp extra-virgin olive oil",
+    "2 whole heads of garlic",
+    "Salt to taste",
+    "",
+    "Aioli:",
+    "4 garlic cloves, finely grated",
+    "2 large egg yolks",
+    "1 cup vegetable oil",
+    "Juice of 1 lemon",
+    "Salt to taste",
+    "",
+    "To Serve:",
+    "1 lemon, cut into wedges"
+  ],
+  "ingredientKeywords": [
+    "Chicken",
+    "Garlic",
+    "Chili",
+    "Potato",
+    "Lemon",
+    "Egg Yolk",
+    "Olive Oil",
+    "Tomato Paste",
+    "Smoked Paprika",
+    "Vinegar",
+    "Vegetable Oil"
+  ],
+  "equipment": [
+    "Food Processor",
+    "Rimmed Baking Sheet",
+    "Bowl",
+    "Whisk"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Preheat",
+      "url": 1,
+      "text": "Preheat oven to 400°F (200°C)."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Season the Chicken",
+      "url": 2,
+      "text": "Place the chicken on a rimmed baking sheet. Season all over with 4 teaspoons salt, making sure to season inside the cavity as well."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Chili Paste",
+      "url": 3,
+      "text": "In a food processor, combine 6 garlic cloves, 2 chilies, 2 tablespoons olive oil, 2 tablespoons tomato paste, 1 tablespoon smoked paprika, and 2 tablespoons vinegar. Pulse until the garlic and peppers are smooth."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Coat the Chicken",
+      "url": 4,
+      "text": "Using a brush or spoon, evenly coat the chili paste all over the chicken."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prep Potatoes and Garlic",
+      "url": 5,
+      "text": "On the same baking sheet, toss the baby potatoes with 2 tablespoons olive oil and salt. Cut the tops off 2 whole heads of garlic and drizzle a teaspoon of olive oil over each. Add both to the baking sheet."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roast",
+      "url": 6,
+      "text": "Roast at 400°F for 10 minutes, then reduce heat to 325°F and continue roasting for 1.5–2 hours, basting 2–3 times, until the legs are very tender and the internal temperature reaches 165°F."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make the Aioli",
+      "url": 7,
+      "text": "Finely grate 4 cloves of garlic into a medium bowl. Add the egg yolks and whisk well. Place a damp towel under the bowl to stabilise it. Very slowly whisk in the vegetable oil in a thin stream at first, then more generously once the aioli begins to thicken and lighten. This takes about 15 minutes. Once all oil is incorporated, add the lemon juice and season with salt. Cover until ready to serve."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Serve",
+      "url": 8,
+      "text": "Let the chicken rest for at least 15 minutes. Carve and serve with the roasted potatoes, roasted garlic, lemon wedges, aioli, and any resting juices."
+    }
+  ],
+  "notes": [
+    "The aioli requires patience — add the oil very slowly at the start or it will split. Once it starts to thicken you can pour more freely.",
+    "Baste the chicken 2–3 times during roasting to build a deeper crust.",
+    "Roasting extra garlic heads alongside is worth it — the cloves become soft and sweet and are great spread on bread or mixed into the potatoes.",
+    "The chicken is done when the legs wiggle freely with tongs and the internal temperature reads 165°F."
+  ],
+  "relatedRecipes": []
+}
