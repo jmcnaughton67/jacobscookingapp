@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "folder": "chilli_oil",
+  "name": "Chilli Oil",
+  "image": [
+    "chilli_oil_0.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jacob"
+  },
+  "datePublished": "2026-04-03",
+  "lastMod": "2026-04-03",
+  "description": "A fragrant homemade chilli oil infused with bay leaves, star anise, cardamom, ginger and onion. Slow infusion over low heat builds deep flavour before chilli flakes are stirred through to bloom in the aromatic oil.",
+  "keywords": "Chilli Oil, Homemade Chilli Oil, Chili Oil, Infused Oil, Condiment, Spicy Oil",
+  "prepTime": "PT10M",
+  "cookTime": "PT20M",
+  "totalTime": "PT30M",
+  "recipeYield": "1 Litre",
+  "recipeCategory": ["Condiment", "Sauce"],
+  "recipeCuisine": ["Asian", "Chinese"],
+  "diet": [
+    "Vegan",
+    "Vegetarian"
+  ],
+  "recipeIngredient": [
+    "1 litre neutral oil (vegetable, canola or peanut)",
+    "10 bay leaves",
+    "6 star anise",
+    "6 cardamom pods, crushed with the side of a knife",
+    "1 large piece of ginger, roughly sliced",
+    "4 stalks spring onions, roughly chopped into 5cm pieces",
+    "1 red onion, roughly chopped",
+    "2 cups dried chilli flakes"
+  ],
+  "ingredientKeywords": [
+    "Chilli Flake",
+    "Bay Leaf",
+    "Ginger",
+    "Cardamom",
+    "Star Anise",
+    "Spring Onion",
+    "Onion",
+    "Red Onion",
+    "Neutral Oil"
+  ],
+  "equipment": [
+    "Saucepan",
+    "Sieve",
+    "Bowl",
+    "Glass Jar"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infuse the Dry Aromatics",
+      "url": 1,
+      "text": "Heat 1 litre of oil in a saucepan over medium heat. Once hot, add the dry aromatics: 10 bay leaves, 6 star anise and 6 crushed cardamom pods."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add the Fresh Aromatics",
+      "url": 2,
+      "text": "After 2 minutes, add the fresh aromatics: the sliced ginger, spring onions and red onion."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Slow Infuse",
+      "url": 3,
+      "text": "Cook on medium-low heat for 5 minutes so all the flavours infuse into the oil. If the oil is furiously boiling it's too hot — you want a gentle infusion, not burning aromatics."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Strain the Oil",
+      "url": 4,
+      "text": "Turn off the heat and remove from the stove. Let the oil cool for 5 minutes, then strain through a sieve into a bowl, separating all the aromatics from the oil."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add the Chilli Flakes",
+      "url": 5,
+      "text": "Slowly stir in 2 cups of dried chilli flakes, mixing to combine. Allow the flakes to infuse and bloom in the oil, turning it a deep red."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Jar and Store",
+      "url": 6,
+      "text": "Once fully cooled, spoon into sterilised glass jars and seal. To sterilise jars, thoroughly wash them then boil fully submerged in water for 5 minutes. Remove and allow to air dry and return to room temperature before filling. Store in the pantry."
+    }
+  ],
+  "notes": [
+    "Keep the heat low during infusion — gentle sizzling is what you want. Hard boiling will burn the aromatics and make the oil bitter.",
+    "Sterilising jars properly is important for shelf stability. Don't skip it.",
+    "Spoon over anything — noodles, eggs, dumplings, pizza, rice, roasted vegetables.",
+    "The oil will deepen in flavour over the first few days as the chilli continues to infuse."
+  ],
+  "relatedRecipes": ["grapefruit_burrata_salad"]
+}
