@@ -27,7 +27,7 @@ def get_header():
         <body onLoad=\"random()\">
             <div id=\"head\">
                 <div class=\"keywords border\">
-                    <a href=\"{format_link(f'{directory_path}/index.html')}\">
+                    <a href=\"{format_link(f'{directory_path}/home.html')}\">
                         <p>Home</p>
                     </a>
                 </div>
@@ -46,7 +46,7 @@ def get_header():
                         <p>Random</p>
                     </a>
                 </div>
-                <a href=\"https://www.instagram.com/cookingwithspud/\" target=\"_blank\" style=\"margin-left: auto; margin-right: 0.8rem; align-self: center; font-size: 5.4rem; color: inherit;\">
+                <a href=\"https://www.instagram.com/cookingwithspud/\" target=\"_blank\" style=\"margin-left: auto; margin-right: 0.8rem; align-self: center; font-size: 3.2rem; color: inherit;\">
                     <i class=\"fa fa-instagram\"></i>
                 </a>
             </div>

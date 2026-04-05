@@ -537,9 +537,9 @@ def return_page_numbers(index, num_chunks_minus_1):
         page_num_display = str(i + 1)
 
         if i == 0:
-            link = format_link(f"{directory_path}/index.html")
+            link = format_link(f"{directory_path}/home.html")
         else:
-            link = format_link(f"{directory_path}/index{str(i)}.html")
+            link = format_link(f"{directory_path}/page{i + 1}.html")
         pages += f"<div class=\"keywords border\"><a href=\"{link}\"><p{style}>{page_num_display}</p></a></div>"
 
     prev_link_html = ""
@@ -548,13 +548,13 @@ def return_page_numbers(index, num_chunks_minus_1):
         prev_page_index = index - 1
     else:
         prev_page_index = str(index) + "#"
-    prev_link = format_link(f"{directory_path}/index.html" if prev_page_index == 0 else f"{directory_path}/index{prev_page_index}.html")
+    prev_link = format_link(f"{directory_path}/home.html" if prev_page_index == 0 else f"{directory_path}/page{prev_page_index + 1}.html")
     prev_link_html = f"<div class=\"keywords border\"><a href=\"{prev_link}\"><p>&lt;--</p></a></div>"
     if index < num_chunks_minus_1:
         next_page_index = index + 1
     else:
         next_page_index = str(index) + "#"
-    next_link = format_link(f"{directory_path}/index{next_page_index}.html")
+    next_link = format_link(f"{directory_path}/page{next_page_index + 1}.html" if isinstance(next_page_index, int) else f"{directory_path}/home.html#")
     next_link_html = f"<div class=\"keywords border\"><a href=\"{next_link}\"><p>--&gt;</p></a></div>"
     
 
@@ -568,7 +568,7 @@ def return_page_numbers(index, num_chunks_minus_1):
 
 
 def create_index_pages(map_chunk, index, num_chunks_minus_1):
-    html_name = "index.html" if index == 0 else f"index{index}.html"
+    html_name = "home.html" if index == 0 else f"page{index + 1}.html"
     html_path = os.path.join(search_path, html_name)
     index_pages.append(html_name)
 
