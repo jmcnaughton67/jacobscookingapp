@@ -500,7 +500,7 @@ with open(html_path, 'w') as f:
     f.write(f"{get_footer()}")
 
 # Create index.html (and paginated index pages)
-def process_chunks(input_map, chunk_size=15):
+def process_chunks(input_map, chunk_size=30):
     if isinstance(input_map, dict):
         items = list(input_map.items())
     elif isinstance(input_map, (list, tuple, str, set)):
@@ -610,7 +610,7 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         for recipe in map_chunk:
             f.write(f"{return_recipe_tile(recipe)}")
             recipe_count += 1
-            if recipe_count >= 15: 
+            if recipe_count >= 30:
                 break
         f.write(f"</div>")
 
