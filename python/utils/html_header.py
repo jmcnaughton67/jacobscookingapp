@@ -46,7 +46,7 @@ def get_header():
                         <p>Random</p>
                     </a>
                 </div>
-                <a href=\"https://www.instagram.com/cookingwithspud/\" target=\"_blank\" style=\"margin-left: auto; margin-right: 0.8rem; align-self: center; font-size: 1.8rem; color: inherit;\">
+                <a href=\"https://www.instagram.com/cookingwithspud/\" target=\"_blank\" style=\"margin-left: auto; margin-right: 0.8rem; align-self: center; font-size: 5.4rem; color: inherit;\">
                     <i class=\"fa fa-instagram\"></i>
                 </a>
             </div>

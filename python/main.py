@@ -181,7 +181,7 @@ for root, _, files in os.walk(search_path):
 
                 f.write(f"{get_opener()}")
                 f.write(f"<script type=\"application/ld+json\">{json.dumps(json_schema)}</script>")
-                f.write(f"<title>{data['name']} - Just My Cooking</title>")
+                f.write(f"<title>{data['name']} - Cooking With Spud</title>")
                 f.write(f"<meta name=\"description\" content=\"{data['description']}\">")
                 f.write(f"{get_header()}")
 
@@ -419,7 +419,7 @@ for root, _, files in os.walk(search_path):
 
             with open(html_path, 'w') as f:
                 f.write(f"{get_opener()}")
-                f.write(f"<title>{data['name']} - Just My Cooking</title>")
+                f.write(f"<title>{data['name']} - Cooking With Spud</title>")
                 f.write(f"<meta name=\"description\" content=\"{data['description']}\">")
 
                 itemList = []
@@ -461,7 +461,7 @@ html_path = os.path.join(search_path, html_name)
 
 with open(html_path, 'w') as f:
     f.write(f"{get_opener()}")
-    f.write(f"<title>Listacles - Just My Cooking</title>")
+    f.write(f"<title>Listacles - Cooking With Spud</title>")
     f.write(f"<meta name=\"description\" content=\"Just my cooking listacles. No bells or whistles, no life stories (ish), just groupings of recipes I use every other week.\">")
 
     # ItemList Schema
@@ -576,7 +576,7 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
 
     with open(html_path, 'w') as f:
         f.write(f"{get_opener()}")
-        f.write(f"<title>Just My Cooking</title>")
+        f.write(f"<title>Cooking With Spud</title>")
         f.write(f"<meta name=\"description\" content=\"Just my cooking. No bells or whistles, no life stories, just recipes I use every other week.\">")
 
         # ItemList Schema
@@ -626,8 +626,8 @@ html_path = os.path.join(search_path, html_name)
 
 with open(html_path, 'w') as f:
     f.write(f"{get_opener()}")
-    f.write(f"<title>All Recipes - Just My Cooking</title>")
-    f.write(f"<meta name=\"description\" content=\"All of the recipes on Just My Cooking\">")
+    f.write(f"<title>All Recipes - Cooking With Spud</title>")
+    f.write(f"<meta name=\"description\" content=\"All of the recipes on Cooking With Spud\">")
 
     itemList = []
     position = 1
@@ -672,8 +672,8 @@ def create_keyword_pages(map_data, description_start, description_end):
 
         with open(html_path, 'w') as f:
             f.write(f"{get_opener()}")
-            f.write(f"<title>{key} Recipes - Just My Cooking</title>")
-            f.write(f"<meta name=\"description\" content=\"{description_start} {key} {description_end} - Just My Cooking\">")
+            f.write(f"<title>{key} Recipes - Cooking With Spud</title>")
+            f.write(f"<meta name=\"description\" content=\"{description_start} {key} {description_end} - Cooking With Spud\">")
 
             itemList = []
             position = 1
@@ -717,7 +717,7 @@ html_path = os.path.join(search_path, html_name)
 
 with open(html_path, 'w') as f:
     f.write(f"{get_opener()}")
-    f.write(f"<title>All Keywords - Just My Cooking</title>")
+    f.write(f"<title>All Keywords - Cooking With Spud</title>")
     f.write(f"<meta name=\"description\" content=\"Listing out and linking to all keyword pages\">")
     f.write(f"{get_header()}")
     f.write(f"<h1 class=\"offset removeOffsetHeight\">All Keyword Pages</h1>")
@@ -731,8 +731,8 @@ html_path = os.path.join(search_path, html_name)
 
 with open(html_path, 'w') as f:
     f.write(f"{get_opener()}")
-    f.write(f"<title>About - Just My Cooking</title>")
-    f.write(f"<meta name=\"description\" content=\"The obligatory about page for Just My Cooking\">")
+    f.write(f"<title>About - Cooking With Spud</title>")
+    f.write(f"<meta name=\"description\" content=\"The obligatory about page for Cooking With Spud\">")
     f.write(f"{get_header()}")
     f.write(f"<div id=\"about\" class=\"\">")
     f.write(f"<h1 class=\"removeOffsetHeight offset\">About</h1>")
@@ -834,7 +834,7 @@ html_path = os.path.join(search_path, html_name)
 # Reverted: Removed encoding
 with open(html_path, 'w') as f:
     f.write(f"{get_opener()}")
-    f.write(f"<title>Search - Just My Cooking</title>")
+    f.write(f"<title>Search - Cooking With Spud</title>")
     f.write(f"<meta name=\"description\" content=\"Search recipes and find what you're looking for using keywords\">")
     f.write(f"<script type=\"text/javascript\" src=\"{directory_path}/search.js\"></script>")
     f.write(f"{get_header()}")

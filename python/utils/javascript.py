@@ -48,7 +48,7 @@ function search() {{
 
         if (searchText === '' || combinedText.toLowerCase().includes(searchText)) {{
             if (stringContainsAll(combinedText)) {{ 
-                const recipeLink = formatJsLink('https://justmy.cooking', jsonObject.folder, false);
+                const recipeLink = formatJsLink('{directory_path}', jsonObject.folder, false);
                 // Original HTML structure
                 output += `<div class="keywords noBG"><div class="keywords border"><a href="${{recipeLink}}"><p>${{jsonObject.name}}</p></a></div></div>`;
                 outputs++;
@@ -64,7 +64,7 @@ function search() {{
     for (let i = 0; i < ingredients.length; i++) {{
         const keyword = ingredients[i];
         if (typeof keyword === 'string' && (searchText === '' || keyword.toLowerCase().includes(searchText))) {{
-             const keywordLink = formatJsLink('https://justmy.cooking', keyword, true);
+             const keywordLink = formatJsLink('{directory_path}', keyword, true);
              output += `<div class="keywords noBG"><div class="keywords border"><a href="${{keywordLink}}"><p>${{keyword}}</p></a></div><div class="keywords keywordSidecar border"><a onClick="addFilter('${{keyword}}')"><p>+</p></a></div></div>`;
              outputs++;
         }}
@@ -78,7 +78,7 @@ function search() {{
     for (let i = 0; i < cuisines.length; i++) {{
         const keyword = cuisines[i];
          if (typeof keyword === 'string' && (searchText === '' || keyword.toLowerCase().includes(searchText))) {{
-            const keywordLink = formatJsLink('https://justmy.cooking', keyword, true);
+            const keywordLink = formatJsLink('{directory_path}', keyword, true);
             output += `<div class="keywords noBG"><div class="keywords border"><a href="${{keywordLink}}"><p>${{keyword}}</p></a></div><div class="keywords keywordSidecar border"><a onClick="addFilter('${{keyword}}')"><p>+</p></a></div></div>`;
             outputs++;
          }}
@@ -92,7 +92,7 @@ function search() {{
     for (let i = 0; i < categories.length; i++) {{
         const keyword = categories[i];
          if (typeof keyword === 'string' && (searchText === '' || keyword.toLowerCase().includes(searchText))) {{
-            const keywordLink = formatJsLink('https://justmy.cooking', keyword, true);
+            const keywordLink = formatJsLink('{directory_path}', keyword, true);
             output += `<div class="keywords noBG"><div class="keywords border"><a href="${{keywordLink}}"><p>${{keyword}}</p></a></div><div class="keywords keywordSidecar border"><a onClick="addFilter('${{keyword}}')"><p>+</p></a></div></div>`;
             outputs++;
          }}
@@ -106,7 +106,7 @@ function addFilter(filter) {{
     filters.push(filter);
     let output = "";
     for (let i = 0; i < filters.length; i++) {{
-         const keywordLink = formatJsLink('https://justmy.cooking', filters[i], true);
+         const keywordLink = formatJsLink('{directory_path}', filters[i], true);
          output += `<div class="keywords noBG"><div class="keywords border"><a href="${{keywordLink}}"><p>${{filters[i]}}</p></a></div><div class="keywords keywordSidecar border"><a onClick="removeFilter('${{filters[i]}}')"><p>-</p></a></div></div>`;
     }}
     document.getElementById("filters").innerHTML = output;
@@ -117,7 +117,7 @@ function removeFilter(filter) {{
     filters = filters.filter(item => item !== filter);
     let output = "";
     for (let i = 0; i < filters.length; i++) {{
-         const keywordLink = formatJsLink('https://justmy.cooking', filters[i], true);
+         const keywordLink = formatJsLink('{directory_path}', filters[i], true);
          output += `<div class="keywords noBG"><div class="keywords border"><a href="${{keywordLink}}"><p>${{filters[i]}}</p></a></div><div class="keywords keywordSidecar border"><a onClick="removeFilter('${{filters[i]}}')"><p>-</p></a></div></div>`;
     }}
     if (output === "") {{
@@ -144,9 +144,9 @@ function random() {{
         random();
     }} else {{
         if (removeHtmlExtension === "True") {{
-            document.querySelector(".keywords.random.border > a").href = 'https://justmy.cooking/' + randomRecipes[rand] + '/' + randomRecipes[rand]
+            document.querySelector(".keywords.random.border > a").href = '{directory_path}/' + randomRecipes[rand] + '/' + randomRecipes[rand]
         }} else {{
-            document.querySelector(".keywords.random.border > a").href = 'https://justmy.cooking/' + randomRecipes[rand] + '/' + randomRecipes[rand] + '.html'
+            document.querySelector(".keywords.random.border > a").href = '{directory_path}/' + randomRecipes[rand] + '/' + randomRecipes[rand] + '.html'
         }}
     }}
 }} 
@@ -154,7 +154,7 @@ function random() {{
 
 function sharePage() {{
   const shareData = {{
-    title: "Just My Cooking",
+    title: "Cooking With Spud",
     text: document.getElementsByTagName("title")[0].innerHTML,
     url: window.location.href,
   }};
