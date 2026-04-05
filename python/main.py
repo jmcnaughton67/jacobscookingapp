@@ -15,6 +15,7 @@ import re
 import random
 import copy
 import math
+import shutil
 from datetime import datetime
 
 # Fetch and compile data from json files
@@ -626,6 +627,9 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         f.write(return_page_numbers(index, num_chunks_minus_1))
         f.write(return_keyword_setion("", 20))
         f.write(f"{get_footer()}")
+
+    if index == 0:
+        shutil.copy(html_path, os.path.join(search_path, "index.html"))
 
 process_chunks(get_sorted_recipes())
 
