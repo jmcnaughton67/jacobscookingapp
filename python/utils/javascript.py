@@ -144,9 +144,9 @@ function random() {{
         random();
     }} else {{
         if (removeHtmlExtension === "True") {{
-            document.querySelector(".keywords.random.border > a").href = '{directory_path}/' + randomRecipes[rand] + '/' + randomRecipes[rand]
+            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/' + randomRecipes[rand]
         }} else {{
-            document.querySelector(".keywords.random.border > a").href = '{directory_path}/' + randomRecipes[rand] + '/' + randomRecipes[rand] + '.html'
+            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/' + randomRecipes[rand] + '.html'
         }}
     }}
 }} 
