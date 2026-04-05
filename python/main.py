@@ -548,7 +548,12 @@ def return_page_numbers(index, num_chunks_minus_1):
         prev_page_index = index - 1
     else:
         prev_page_index = str(index) + "#"
-    prev_link = format_link(f"{directory_path}/home.html" if prev_page_index == 0 else f"{directory_path}/page{prev_page_index + 1}.html")
+    if not isinstance(prev_page_index, int):
+        prev_link = format_link(f"{directory_path}/home.html") + "#"
+    elif prev_page_index == 0:
+        prev_link = format_link(f"{directory_path}/home.html")
+    else:
+        prev_link = format_link(f"{directory_path}/page{prev_page_index + 1}.html")
     prev_link_html = f"<div class=\"keywords border\"><a href=\"{prev_link}\"><p>&lt;--</p></a></div>"
     if index < num_chunks_minus_1:
         next_page_index = index + 1
