@@ -139,7 +139,7 @@ for root, _, files in os.walk(search_path):
             with open(json_path, 'r') as f:
                 data = json.load(f)
 
-            html_name = data['folder'] + ".html"
+            html_name = "index.html"
             html_path = os.path.join(root, html_name)
 
             with open(html_path, 'w') as f:

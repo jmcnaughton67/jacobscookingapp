@@ -29,7 +29,7 @@ function formatJsLink(basePath, itemName, isKeyword = false) {{
     if (isKeyword) {{
         link = `${{basePath}}/keywords/${{itemName.split(' ').join('_').toLowerCase()}}`;
     }} else {{
-        link = `${{basePath}}/${{itemName}}/${{itemName}}`; 
+        link = `${{basePath}}/${{itemName}}/`;
     }}
     if (removeHtmlExtension === "False") {{
         link += ".html";
@@ -144,9 +144,9 @@ function random() {{
         random();
     }} else {{
         if (removeHtmlExtension === "True") {{
-            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/' + randomRecipes[rand]
+            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/'
         }} else {{
-            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/' + randomRecipes[rand] + '.html'
+            document.querySelector(".keywords.random.border > a").href = '/' + randomRecipes[rand] + '/index.html'
         }}
     }}
 }} 

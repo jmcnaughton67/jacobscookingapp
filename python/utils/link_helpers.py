@@ -25,5 +25,7 @@ def get_keyword_link(keyword):
 
 def get_recipe_link(recipe_name):
     recipe_link = recipe_name.lower().replace(" ", "_")
-    recipe_link = format_link(f"{directory_path}/{recipe_link}/{recipe_link}.html")
-    return recipe_link
+    if remove_html_extension:
+        return f"{directory_path}/{recipe_link}/"
+    else:
+        return f"{directory_path}/{recipe_link}/index.html"
