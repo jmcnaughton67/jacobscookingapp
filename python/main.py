@@ -581,6 +581,10 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         f.write(f"{get_opener()}")
         f.write(f"<title>Cooking With Spud</title>")
         f.write(f"<meta name=\"description\" content=\"Just my cooking. No bells or whistles, no life stories, just recipes I use every other week.\">")
+        f.write(f"<meta property=\"og:title\" content=\"Cooking With Spud\">")
+        f.write(f"<meta property=\"og:site_name\" content=\"Cooking With Spud\">")
+        f.write(f"<meta property=\"og:url\" content=\"{directory_path}/home\">")
+        f.write(f"<meta name=\"twitter:title\" content=\"Cooking With Spud\">")
 
         # ItemList Schema
         itemList = []
