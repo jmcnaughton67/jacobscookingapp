@@ -37,6 +37,11 @@ body, input {
     margin-left: 0.8rem;
 }
 
+#body {
+    margin-top: 0;
+    padding-top: 0;
+}
+
 #foot {
     align-content: flex-start; 
     display: flex; 
