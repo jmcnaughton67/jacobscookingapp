@@ -610,7 +610,7 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         f.write(f"{get_header()}")
 
         if index == 0:
-            f.write(f"<div style=\"text-align:center; padding: 1rem 0;\"><img src=\"{directory_path}/cws-logo.jpg\" alt=\"Cooking With Spud\" style=\"max-width:300px; width:80%;\"></div>")
+            f.write(f"<div style=\"text-align:center; padding: 1rem 0;\"><img src=\"/cws-logo.jpg\" alt=\"Cooking With Spud\" style=\"max-width:300px; width:80%;\"></div>")
 
         # Add recipe pages
         f.write(f"<h1 class=\"offset\" style=\"margin-bottom:0rem;\">Cooking with Spud</h1>")
