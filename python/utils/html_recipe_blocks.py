@@ -3,7 +3,7 @@ from .link_helpers import *
 from .date_helpers import *
 
 def return_recipe_tile(data, description = ""):
-    recipe_link = format_link(f"{directory_path}/{data['folder']}/{data['folder']}.html")
+    recipe_link = get_recipe_link(data['folder'])
     image_link = f"{directory_path}/{data['folder']}/{data['image'][0]}"
 
     extra = ""

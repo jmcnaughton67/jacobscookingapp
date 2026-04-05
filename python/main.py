@@ -153,8 +153,7 @@ for root, _, files in os.walk(search_path):
 
                 json_schema['recipeInstructions'] = []
                 for step in data['recipeInstructions']:
-                    base_url = f"https://justmy.cooking/{data['folder']}/{data['folder']}.html"
-                    formatted_base_url = format_link(base_url)
+                    formatted_base_url = get_recipe_link(data['folder'])
                     json_schema['recipeInstructions'].append({
                         "@type": "HowToStep",
                         "name": step['name'],
@@ -426,8 +425,7 @@ for root, _, files in os.walk(search_path):
                 position = 1
                 for recipe in data['recipes']:
                     
-                    recipe_base_url = f"https://justmy.cooking/{recipe['folder']}/{recipe['folder']}.html"
-                    formatted_url = format_link(recipe_base_url)
+                    formatted_url = get_recipe_link(recipe['folder'])
                     itemList.append({
                         "@type": "ListItem",
                         "position": position,
@@ -583,8 +581,7 @@ def create_index_pages(map_chunk, index, num_chunks_minus_1):
         itemList = []
         position = 1 
         for recipe in map_chunk:
-            recipe_base_url = f"https://justmy.cooking/{recipe['folder']}/{recipe['folder']}.html"
-            formatted_url = format_link(recipe_base_url)
+            formatted_url = get_recipe_link(recipe['folder'])
             itemList.append({
                 "@type": "ListItem",
                 "position": position,
@@ -633,8 +630,7 @@ with open(html_path, 'w') as f:
     position = 1
     for recipe in recipes:
         
-        recipe_base_url = f"https://justmy.cooking/{recipe['folder']}/{recipe['folder']}.html"
-        formatted_url = format_link(recipe_base_url)
+        formatted_url = get_recipe_link(recipe['folder'])
         itemList.append({
             "@type": "ListItem",
             "position": position,
@@ -678,8 +674,7 @@ def create_keyword_pages(map_data, description_start, description_end):
             itemList = []
             position = 1
             for object_data in values:
-                recipe_base_url = f"https://justmy.cooking/{object_data['folder']}/{object_data['folder']}.html"
-                formatted_url = format_link(recipe_base_url)
+                formatted_url = get_recipe_link(object_data['folder'])
                 itemList.append({
                     "@type": "ListItem",
                     "position": position,
